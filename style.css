@@ -19,6 +19,8 @@ main {
 
 article {
     text-align: justify;
+    clear:both;
+    background-color:aquamarine;
 }
 
 
@@ -31,14 +33,45 @@ header {
 footer {
     text-align: center;
     padding-bottom: 10px;
+    clear: both;
 }
 
 
 /* specifieke stijlen */
 
+.zweefRechts {
+float: right;
+width:375px;
+}
+
+article#middenOnder {
+clear:both;
+}
+
+img.onderNav {
+    float: left;
+    padding:15px;
+    width: 145px;
+}
 img.zweefLinks {
-    float: right;
-    margin-left: 15px;
+    float: left;
+    width: 300px;
+    margin:5px;
+}
+
+img.naarRechts {
+    width:300px;
+}
+
+img.naarLinks {
+    width:300px;
+}
+.naarLinks {
+    float:left;
+}
+
+.naarRechts {
+    float:right;  
 }
 
 .smalltext {
@@ -83,6 +116,9 @@ nav li a:hover {
 nav li a.active {
     background-color: rgb(139, 115, 197);
 }
+
+
+
 
 
 
