@@ -20,7 +20,6 @@ main {
 article {
     text-align: justify;
     clear:both;
-    background-color:aquamarine;
 }
 
 
@@ -42,7 +41,9 @@ footer {
 .zweefRechts {
 float: right;
 width:375px;
+margin:0px;
 }
+
 
 article#middenOnder {
 clear:both;
@@ -56,7 +57,7 @@ img.onderNav {
 img.zweefLinks {
     float: left;
     width: 300px;
-    margin:5px;
+    margin:5px 5px 5px 0px;
 }
 
 img.naarRechts {
@@ -66,12 +67,13 @@ img.naarRechts {
 img.naarLinks {
     width:300px;
 }
-.naarLinks {
-    float:left;
+
+ul.naarLinks {
+   float:left; 
 }
 
 .naarRechts {
-    float:right;  
+    float:right;
 }
 
 .smalltext {
