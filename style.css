@@ -35,6 +35,10 @@ footer {
     clear: both;
 }
 
+img { 
+    width:300px;
+}
+
 
 /* specifieke stijlen */
 
@@ -56,17 +60,9 @@ img.onderNav {
 }
 img.zweefLinks {
     float: left;
-    width: 300px;
     margin:5px 5px 5px 0px;
 }
 
-img.naarRechts {
-    width:300px;
-}
-
-img.naarLinks {
-    width:300px;
-}
 
 ul.naarLinks {
    float:left; 
