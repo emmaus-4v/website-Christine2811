@@ -1,6 +1,6 @@
 /* Basislayout */
 
-*{margin:0;padding:0}
+
 
 html, body {
     height: 100%;
@@ -8,9 +8,53 @@ html, body {
     padding: 0;
     background-color: rgb(252, 252, 252);  
     color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    font: Sans-Serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
 }
 
+/* headers en tekst */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight:500;
+    line-height: 1.5;
+    margin:0 0 15px 0;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+    margin:0;
+    line-height:1.5;
+
+}
+
+a {
+    color: rgb(205, 135, 226);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul, ol{
+    padding-left: 20px;
+}
+
+
+/* blokken */
 
 main {
     margin: 0 auto;
@@ -22,6 +66,12 @@ main {
 article {
     text-align: justify;
     clear:both;
+    padding:20px 0;
+    margin:20px 0;
+    background-color: #cfcfcf;
+    width:100%;
+    min-height:20px;
+    overflow: auto;
 }
 
 
@@ -39,54 +89,52 @@ footer {
 
 img { 
     width:300px;
+    max-width:100%;
 }
 
 
 /* specifieke stijlen */
 
 .zweefRechts {
-float: right;
-width:300px;
-margin-left:20px;
+    float: right;
+    width:300px;
+    margin-left:20px;
 }
 
 article#middenOnder {
-clear:both;
+    clear:both;
 }
 
 img.onderNav {
     float: left;
-    padding:15px;
+    padding: 15px;
     width: 145px;
 }
 img.zweefLinks {
     float: left;
-    width:300px;
-    margin:20px 5px 5px 0px;
+    width: 300px;
+    margin: 20px 5px 5px 0px;
 }
 
 .naarLinks {
-   float:left; 
+    float: left;
+    margin: 0 15px;
+    width: calc(50% - 30px);
 }
 
-.naarRechts {
-    float:right;
+.links{
+    float:left;
+    margin: 20px 20px;
+}
+
+.drie {
+    margin: 0 15px;
+    width: calc(30% - 30px);
 }
 
 .smalltext {
     font-size: 0.7em;
 }
-
-a {
-    color: rgb(205, 135, 226);
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
@@ -115,10 +163,4 @@ nav li a:hover {
 nav li a.active {
     background-color: rgb(139, 115, 197);
 }
-
-
-
-
-
-
 
