@@ -4,7 +4,6 @@ html, body {
     height: 100%;
     padding: 0;
     background-color: rgb(252, 252, 252);  
-    
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
 }
@@ -44,10 +43,9 @@ img {
 
 .zweefRechts {
 float: right;
-width:375px;
-margin:0px;
+width:300px;
+margin-left:20px;
 }
-
 
 article#middenOnder {
 clear:both;
@@ -60,11 +58,11 @@ img.onderNav {
 }
 img.zweefLinks {
     float: left;
-    margin:5px 5px 5px 0px;
+    width:300px;
+    margin:20px 5px 5px 0px;
 }
 
-
-ul.naarLinks {
+.naarLinks {
    float:left; 
 }
 
