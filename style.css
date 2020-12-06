@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
     font-size: 2.5rem;
+    font-weight:600;
 }
 
 h2{
@@ -68,7 +69,6 @@ article {
     clear:both;
     padding:20px 0;
     margin:20px 0;
-    background-color: #cfcfcf;
     width:100%;
     min-height:20px;
     overflow: auto;
