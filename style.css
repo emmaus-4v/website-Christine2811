@@ -1,7 +1,5 @@
 /* Basislayout */
 
-
-
 html, body {
     height: 100%;
     margin:0;
@@ -105,11 +103,6 @@ article#middenOnder {
     clear:both;
 }
 
-img.onderNav {
-    float: left;
-    padding: 15px;
-    width: 145px;
-}
 img.zweefLinks {
     float: left;
     width: 300px;
@@ -136,6 +129,7 @@ img.zweefLinks {
     font-size: 0.7em;
 }
 /* navigatiebalk */
+
 nav ul {
     list-style-type: none;
     margin: auto;
@@ -146,6 +140,12 @@ nav ul {
 
 nav ul li {
     float: left;
+}
+
+img.onderNav {
+    float: left;
+    padding: 15px;
+    width: 145px;
 }
 
 nav li a {
