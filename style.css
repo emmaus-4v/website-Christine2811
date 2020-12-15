@@ -101,12 +101,8 @@ img {
 
 article#middenOnder {
     clear:both;
-}
-
-img.zweefLinks {
-    float: left;
-    width: 300px;
-    margin: 20px 5px 5px 0px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .naarLinks {
@@ -118,7 +114,7 @@ img.zweefLinks {
 .naarRechts {
     float: right;
     margin: 0 15px;
-    width: calc(50% - 30px);
+    width: calc(50% - 10px);
 }
 
 .links{
