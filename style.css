@@ -4,8 +4,8 @@ html, body {
     height: 100%;
     margin:0;
     padding: 0;
-    background-color: rgb(252, 252, 252);  
-    color: #303030;
+    background-color: #f8f5f2 ; 
+    color: #624f66;
     font: Sans-Serif;
     font-family: 'Open Sans', sans-serif;
     font-size:14px;
@@ -40,7 +40,7 @@ p{
 }
 
 a {
-    color: rgb(205, 135, 226);
+    color: #eb9fb1;
     text-decoration: none;
 }
 
@@ -74,10 +74,19 @@ article {
 
 
 header {
-    color: rgb(108, 71, 156);
+    color: #735d78;
     text-align: center;
+    position: relative;
+    animation-name: example;
+    animation-duration: 7s;animation-iteration-count: infinite;
 }
 
+@keyframes example {
+  0%   {color:#735d78;}
+  25%  {color:#B392ac;}
+  50%  {color:#d1b3c4;}
+  100% {color:#ffd6df;}
+}
 
 footer {
     text-align: center;
@@ -99,14 +108,15 @@ img {
     margin-left:20px;
 }
 
-article#middenOnder {
-    clear:both;
+#middenOnder {
+    clear: both;
 }
 
 .naarLinks {
     float: left;
     margin: 0 15px;
     width: calc(50% - 30px);
+    background-color: #e2cad8;
 }
 
 .naarRechts {
@@ -132,13 +142,14 @@ article#middenOnder {
 .smalltext {
     font-size: 0.7em;
 }
+
 /* navigatiebalk */
 
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #988ebb;
+    background-color: #B392ac;
     overflow: hidden;
 }
 
@@ -154,21 +165,17 @@ img.onderNav {
 
 nav li a {
     display: block;
-    color: white;
+    color: #fbf1ea;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #a890c7;
+    color: #ffd6df;
+    text-decoration: none;
 }
 
 nav li a.active {
-    background-color: rgb(139, 115, 197);
+    background-color: #d1b3c4;
 }
-
-/* animatie */
-
-
-
