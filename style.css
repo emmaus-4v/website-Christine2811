@@ -4,7 +4,7 @@ html, body {
     height: 100%;
     margin:0;
     padding: 0;
-    background-color: #f8f5f2 ; 
+    background-color: #f8f3ee ; 
     color: #624f66;
     font: Sans-Serif;
     font-family: 'Open Sans', sans-serif;
@@ -71,16 +71,7 @@ header {
     color: #735d78;
     text-align: center;
     position: relative;
-    animation-name: example;
-    animation-duration: 7s;animation-iteration-count: infinite;
-}
-
-@keyframes example {
-  0%    {color:#735d78;}
-  25%   {color:#B392ac;}
-  50%   {color:#d1b3c4;}
-  75%   {color:#ebc5cd}
-  100%  {color:#735d78;}
+    animation: example 7s infinite;
 }
 
 footer {
@@ -253,4 +244,14 @@ input[name="r"]{
 }
 #r5:checked ~ .s1{
     margin-left: -80%;
+}
+
+/* animatie */
+
+@keyframes example {
+  0%    {color:#735d78;}
+  25%   {color:#B392ac;}
+  50%   {color:#d1b3c4;}
+  75%   {color:#ebc5cd}
+  100%  {color:#735d78;}
 }
