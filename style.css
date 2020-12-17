@@ -71,7 +71,7 @@ header {
     color: #735d78;
     text-align: center;
     position: relative;
-    animation: example 7s infinite;
+    animation: header 7s infinite;
 }
 
 footer {
@@ -114,22 +114,20 @@ img {
 
 /* navigatiebalk */
 
+.middenvanNav {
+    width:20%;
+}
+
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
     background-color: #B392ac;
-    overflow: hidden;
+    overflow: hidden;   
 }
 
 nav ul li {
     float: left;
-}
-
-img.onderNav {
-    float: left;
-    padding: 15px;
-    width: 145px;
 }
 
 nav li a {
@@ -147,6 +145,11 @@ nav li a:hover {
 
 nav li a.active {
     background-color: #d1b3c4;
+}
+
+ img.onderNav {
+    padding: 15px;
+    width: 145px;
 }
 
 /* slideshow */
@@ -233,10 +236,19 @@ input[name="r"]{
 
 /* animatie */
 
-@keyframes example {
+@keyframes header {
     0%      {color:#735d78;}
     25%     {color:#B392ac;}
     50%     {color:#d1b3c4;}
     75%     {color:#ebc5cd}
     100%    {color:#735d78;}
+}
+
+img.naarLinks {
+    animation: slideIn 2s;
+}
+
+@keyframes slideIn {
+    0%      {transform: translateX(900px);}
+    100%    {transform: translateX(0px);}
 }
