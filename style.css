@@ -240,12 +240,3 @@ input[name="r"]{
     75%     {color:#ebc5cd}
     100%    {color:#735d78;}
 }
-
-img.naarLinks {
-    animation: slide 8s;
-}
-
-@keyframes slide {
-    0%      {left:-900px;}
-    100%    {left:0px;}
-}
