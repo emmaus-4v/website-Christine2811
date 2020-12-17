@@ -87,20 +87,14 @@ img {
 
 /* specifieke stijlen */
 
-.zweefRechts {
-    float: right;
-    width:300px;
-    margin-left:20px;
-}
-
-#middenOnder {
-    clear: both;
-}
-
 .naarLinks {
     float: left;
     margin: 0 15px;
     width: calc(50% - 30px);
+}
+
+.textmargin {
+    margin:0 15px;
 }
 
 .naarRechts {
@@ -114,17 +108,8 @@ img {
     margin: 20px 20px;
 }
 
-.drie {
-    margin: 0 15px;
-    width: calc(30% - 30px);
-}
-
-.textmargin {
-    margin:0 15px;
-}
-
 .smalltext {
-    font-size: 0.7em;
+    font-size: 0.5em;
 }
 
 /* navigatiebalk */
@@ -183,7 +168,7 @@ nav li a.active {
     top:0;
     right:0;
     left:0;
-    width:250px;
+    width:110px;
     height:20px;
     font-size:10px;
     padding: 0px 70px 15px 70px;
@@ -207,7 +192,7 @@ nav li a.active {
     transition: 0.4s;
 }
 .bar:hover{
-    background: #624f66;
+    background: #FFDCF4;
 }
 
 input[name="r"]{
@@ -249,9 +234,18 @@ input[name="r"]{
 /* animatie */
 
 @keyframes example {
-  0%    {color:#735d78;}
-  25%   {color:#B392ac;}
-  50%   {color:#d1b3c4;}
-  75%   {color:#ebc5cd}
-  100%  {color:#735d78;}
+    0%      {color:#735d78;}
+    25%     {color:#B392ac;}
+    50%     {color:#d1b3c4;}
+    75%     {color:#ebc5cd}
+    100%    {color:#735d78;}
+}
+
+img.naarLinks {
+    animation: slide 8s;
+}
+
+@keyframes slide {
+    0%      {left:-900px;}
+    100%    {left:0px;}
 }
